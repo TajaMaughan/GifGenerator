@@ -13,7 +13,6 @@ function getGifs() {
     //clear our previous gifs
     $("#images").html("");
     var topic = $(this).attr("id");
-    //for (i = 0; i < 10; i++) {
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=SMHcravp6J52lglHwZk6jPmm49li38p2" + "&q=" + topic + "&limit=10";
     console.log(queryURL);
     //AJAX call
