@@ -5,7 +5,7 @@ function showButtons() {
     $("#buttons").empty()
     //for each item in the topics array, generate a button
     for (i = 0; i < topics.length; i++) {
-        $("#buttons").append("<button class='buttons' id='" + topics[i] + "'>" + topics[i] + "</button>");
+        $("#buttons").append("<button class='buttons m-1 button' id='" + topics[i] + "'>" + topics[i] + "</button>");
     }
 }
 
@@ -29,7 +29,7 @@ function getGifs() {
             var imageURL = results[j].images.fixed_height_still.url;
             var gifURL = results[j].images.fixed_height.url;
             var rating = results[j].rating.toUpperCase();
-            $("#images").append("<div><img src='" + imageURL + "' data-still='" + imageURL + "' data-animate='" + gifURL + "' data-state='still' class='gif'><p>Rating: " + rating + "</p><div>");
+            $("#images").append("<div class='col-md-6 col-sm-12'><img src='" + imageURL + "' data-still='" + imageURL + "' data-animate='" + gifURL + "' data-state='still' class='gif'><p>Rating: " + rating + "</p><div>");
         }
     });
 }

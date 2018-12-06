@@ -1,0 +1,32 @@
+body {
+    background-color: 	#eeeeee;
+    font-family: 'Bungee', cursive;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #014444;
+    padding: 1vw;
+    color: #bb6868;
+}
+
+#search, #buttons {
+    display: flex;
+    justify-content: center;
+    background-color: 	#038e8f;
+    padding: 1vw;
+}
+
+#buttons {
+    padding-top: 0;
+}
+
+#images {
+    margin-top: 1vw;
+    padding: 2vw 1vw 0 1vw;
+    background-color: 	#811a71;
+}
+
+.button {
+    background-color: #8f0404;
+}
