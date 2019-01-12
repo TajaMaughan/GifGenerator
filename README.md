@@ -1,1 +1,2 @@
 # GifGenerator
+In this project I was able to successfully get gif to generate from the Giphy api. There are preset buttons with terms that you can search, or you can add new buttons. They will initially show up as a 10 still images. When you click on an individual image it will animate. Clicking again will change it back to still. The biggest challange that I faced was that I wanted it to generate 10 random images each time, but they way I have the api currently set up it will always show the same 10 gifs. I hope to be able to get them to randomizein the future.
